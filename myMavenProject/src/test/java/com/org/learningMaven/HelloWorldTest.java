@@ -19,6 +19,7 @@ public class HelloWorldTest {
 		String appTitle = driver.getTitle();
 		System.out.println("Application title is :: "+appTitle);
 		driver.quit();*/
+		System.out.println();
 		ProfilesIni profile = new ProfilesIni();
 		FirefoxProfile myprofile = profile.getProfile("firefox profile name");
 		WebDriver driver = new FirefoxDriver(myprofile);
